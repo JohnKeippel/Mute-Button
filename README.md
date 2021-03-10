@@ -22,6 +22,8 @@ The electronics and code aren't too complex, but for me the learning was primari
   - I learned so much from this video. A quick, repeatable method for making snapfit cases that uses mirroring, offsets, section analysis, shell, and rigid joints
 - [Designing a 3D Printed Enclosure for Arduino Uno](https://www.youtube.com/watch?v=E0bhdr84FNU)
   - Another great quick tutorial on how to make cases. Learned about importing other models, creating rigid joints, and then projecting geometry from those models into my sketch. Used this to drop the Trinket model into my sketch and project the necessary USB cutout
+- Nothing against Mu, but I wanted to work within Visual Studio Code and ended up using this extension to access serial output. It's got some quirks but by and large worked as expected
+  - [vscode-circuitpython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
 - On non-express Adafruit boards, space is quite limited. If you're dev-ing with a Mac, hidden files can exacerbate the problem.
   - [Prevent & Remove MacOS Hidden Files](https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#prevent-and-remove-macos-hidden-files-2978468-48)
   - [Copy Files on MacOS Without Creating Hidden Files](https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#copy-files-on-macos-without-creating-hidden-files-2978473-53)
