@@ -45,21 +45,21 @@ while True:
             if not app_switch.value:
                 # teams
                 kbd.send(Keycode.LEFT_CONTROL, Keycode.LEFT_SHIFT, Keycode.K)
-                print("windows, teams, hand")
+                #print("windows, teams, hand")
             else:
                 # zoom
                 kbd.send(Keycode.LEFT_ALT, Keycode.Y)
-                print("windows, zoom, hand")
+                #print("windows, zoom, hand")
         else:
             # macos
             if not app_switch.value:
                 # teams
                 kbd.send(Keycode.LEFT_GUI, Keycode.LEFT_SHIFT, Keycode.K)
-                print("mac, teams, hand")
+                #print("mac, teams, hand")
             else:
                 # zoom
                 kbd.send(Keycode.LEFT_ALT, Keycode.Y)
-                print("mac, zoom, hand")
+                #print("mac, zoom, hand")
 
         # make the led yellow to indicate the last command sent
         led[0] = (255, 255, 0)  
@@ -75,21 +75,21 @@ while True:
             if not app_switch.value:
                 # teams
                 kbd.send(Keycode.LEFT_CONTROL, Keycode.LEFT_SHIFT, Keycode.M)
-                print("windows, teams, mute")
+                #print("windows, teams, mute")
             else:
                 # zoom
                 kbd.send(Keycode.LEFT_ALT, Keycode.A)
-                print("windows, zoom, mute")
+                #print("windows, zoom, mute")
         else:
             # macos
             if not app_switch.value:
                 # teams
                 kbd.send(Keycode.LEFT_GUI, Keycode.LEFT_SHIFT, Keycode.M)
-                print("mac, teams, mute")
+                #print("mac, teams, mute")
             else:
                 # zoom
                 kbd.send(Keycode.LEFT_GUI, Keycode.LEFT_SHIFT, Keycode.A)
-                print("mac, zoom, mute")
+                #print("mac, zoom, mute")
 
         # make the led yellow to indicate the last command sent
         led[0] = (0, 255, 0)
